@@ -1,0 +1,185 @@
+.navbar {
+  background: linear-gradient(to right, #1E90FF   , #ADD8E6  );
+  transition: background 0.3s;
+  border-radius: 1rem;
+}
+.detail{
+  color:rgb(221, 240, 254);
+}
+.parallax {
+  background-image: url('./pexels-antoinette-hürlimann-15533537.jpg'); /* Replace with your desired background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+height: 235vh;
+}
+
+.parallax-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+}
+
+.content {
+  padding: 40px;
+}
+
+
+.navbar a {
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 10px 15px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+/* .navbar a:hover {
+  background-color: #000000;
+  transition: background-color 0.3s ease;
+} */
+
+.navbar-brand {
+  font-size: 24px;
+}
+
+.navbar-nav .nav-link {
+  padding: 8px 12px;
+}
+
+  
+  #city {
+    width: 300px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #Submit {
+    margin-top: 4px;
+  }
+  
+  /* Weather Cards */
+  .my-card {
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 36px;
+  }
+  
+  /* Table Styling */
+  .my-table {
+    margin: 50px;
+    padding: 20px;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  th {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .table-wrapper {
+    background-color: rgba(255, 255, 255, 0.8); /* Translucent white background */
+    padding: 15px; /* Add padding for spacing */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  }
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  .get-app-button {
+    margin-top: 10px;
+  }
+
+  /* Content */
+  .detail {
+    text-align: center;
+  }
+
+  .detail h2 {
+    font-size: 2.5rem;
+  }
+
+  .detail h1 {
+    font-size: 4.5rem;
+    margin-bottom: 20px;
+  }
+
+  /* Cards */
+  .my-card {
+    margin-top: 40px;
+  }
+
+  .my-card-title {
+    margin-bottom: 0;
+  }
+
+  /* Table */
+  .table th,
+  .table td {
+    vertical-align: middle;
+  }
+
+  /* Footer */
+  footer {
+    margin-top: 40px;
+    padding: 20px 0;
+    /* background-color: #f8f9fa; */
+  }
+
+  footer p {
+    margin-bottom: 0;
+  }
+
+  /* Media Queries */
+  @media (max-width: 1400px) and (max-height: 956px) {
+    /* Navbar */
+    .navbar-brand {
+      font-size: 1.2rem;
+    }
+
+    /* Content */
+    .detail h2 {
+      font-size: 2rem;
+    }
+
+    .detail h1 {
+      font-size: 3.5rem;
+    }
+
+    /* Cards */
+    .my-card {
+      margin-top: 20px;
+    }
+  }
+
+  @media (max-width: 1200px) and (max-height: 800px) {
+    /* Content */
+    .detail h2 {
+      font-size: 1.8rem;
+    }
+
+    .detail h1 {
+      font-size: 3rem;
+    }
+  }  
